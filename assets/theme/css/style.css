@@ -1,20 +1,4 @@
 @charset "UTF-8";
-
-/* hide Mobirise footer on mobile */
-@media screen and (max-width: 767px) {
-    section.display-7 {
-        display: none !important;
-    }
-}
-
-section {
-  background-color: #ffffff;
-}
-
-/* hide Mobirise footer on all devices */
-section.display-7 {
-    display: none !important;
-}
 section {
   background-color: #ffffff;
 }
@@ -978,8 +962,4 @@ blockquote {
 	padding: 0;
 	top: 0;
 	left: -2400px;
-}
-/* hide homepage Mobirise footer on all devices */
-body.home section.display-7 {
-    display: none !important;
 }
