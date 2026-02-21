@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+/* hide Mobirise free footer */
+section.display-7 {
+    display: none !important;
+}
 section {
   background-color: #ffffff;
 }
