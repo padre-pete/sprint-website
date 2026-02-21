@@ -6,6 +6,15 @@
         display: none !important;
     }
 }
+
+section {
+  background-color: #ffffff;
+}
+
+/* hide Mobirise footer on all devices */
+section.display-7 {
+    display: none !important;
+}
 section {
   background-color: #ffffff;
 }
