@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
-/* hide Mobirise footer */
-section.display-7 {
-    display: none !important;
+/* hide Mobirise footer on mobile */
+@media screen and (max-width: 767px) {
+    section.display-7 {
+        display: none !important;
+    }
 }
 section {
   background-color: #ffffff;
